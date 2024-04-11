@@ -160,6 +160,11 @@ data/
 skip/
 .envs/.local/
 utils/config.py
+config_local.py
+packages/
+mod-*
+skip/deploy.txt
+
 
 ### Eclipse ###
 .apt_generated
