@@ -1,0 +1,10 @@
+jobs/*
+!jobs/spark-code.py
+
+packages/*
+
+.envs/*
+
+venv/
+
+skip/*
