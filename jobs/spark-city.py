@@ -107,7 +107,8 @@ def main():
                 .option('checkpointLocation', checkpointFolder)
                 .option('path', output)
                 .outputMode('append')
-                .start())
+                .start()
+                )
 
     # Read from Kafka topics and assign the dataframes with specific schemas
     vehicleDF = read_kafka_topic('vehicle_data', vehicleSchema).alias('vehicle')
